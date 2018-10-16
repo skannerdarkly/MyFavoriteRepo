@@ -2,3 +2,4 @@
 addpath('C:\foo\bar')
 mydir=userpath;
 addpath(genpath([mydir(1:end-1) filesep]));
+% we also made a local change here.
